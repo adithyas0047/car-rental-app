@@ -1,0 +1,234 @@
+.car-details-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .car-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .car-photos img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .suggestions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggestion-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  .payment-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .user-details,
+  .rental-details,
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .confirm-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Dark gray text */
+}
+
+h1 {
+  color: #343a40; /* Darker gray for headings */
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Utility Styles */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #343a40; /* Dark background */
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #007bff; /* Blue hover effect */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Car Details Page */
+.car-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.car-details img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.car-info {
+  flex: 1;
+}
+
+.suggestions {
+  margin-top: 30px;
+}
+
+.suggestions h2 {
+  margin-bottom: 10px;
+}
+
+/* Payment Page */
+.payment-page {
+  margin-top: 20px;
+}
+
+.payment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-section input, select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.payment-methods label {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  text-align: center;
+}
+
+.payment-methods label:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Layout Styles */
+.header, .content, .footer {
+  margin-bottom: 20px;
+}
+
+.content {
+  min-height: 80vh; /* Makes footer stick at the bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
